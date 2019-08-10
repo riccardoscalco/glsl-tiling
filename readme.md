@@ -11,7 +11,7 @@ npm install glsl-tiling
 ## Usage
 
 ```glsl
-#pragma glslify: tiling = require(glsl-tiling)
+#pragma glslify: tiling = require(glsl-tiling);
 
 void main() {
 	vec2 p = gl_FragCoord.xy / resolution.xy;
