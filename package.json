@@ -4,7 +4,8 @@
   "description": "utility function for the tessallation of the [0, 1] plane.",
   "main": "index.js",
   "scripts": {
-    "test": "glslify test.glsl | glsl-testify | tap-spec"
+    "test": "glslify test.glsl | glsl-testify | tap-spec",
+    "release": "np"
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,10 @@
   "devDependencies": {
     "glsl-testify": "^1.0.0",
     "glslify": "^7.0.0",
+    "np": "^5.0.3",
     "tap-spec": "^5.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
